@@ -1,7 +1,5 @@
 import numpy as np
 from scipy.stats import truncnorm
-from tensorflow.keras.datasets import fashion_mnist
-from tensorflow.keras.utils import to_categorical
 
 #Sigmoid activation function for forward pass
 @np.vectorize
